@@ -12,9 +12,16 @@ body {
    color:#160f29 ;
    text-align: center;
    align-self: center;
+
    }
    #input::placeholder{
        color-scheme: light;
+   }
+   .item-list{
+    padding: 10px, 60px;
+    margin: 10px;
+    width:60%;
+    height: 100%;
    }
    .done, .canc{
        padding: 5px;
@@ -24,16 +31,18 @@ body {
 
    }
 
-   ul .checked{
-       background: lightgreen ;
+   ul .checked{  
        text-decoration: line-through;
-       margin: 10px;
    }
    .all{
        align-items: center;
        background-color:#92e6a7 ;
        color: #10451d;
+       text-align: center;
    }
-   .list{
+   .li{
        margin-right: 60%;
+       width: 200px;
+        height: 50px;
+        text-align:center;
    }
