@@ -1,0 +1,39 @@
+body { 
+    background-color:#f8ffe5; 
+       }
+
+   .titolo{ 
+   color: #14746f;
+   text-align: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   }
+   #input{
+   color:#160f29 ;
+   text-align: center;
+   align-self: center;
+   }
+   #input::placeholder{
+       color-scheme: light;
+   }
+   .done, .canc{
+       padding: 5px;
+       margin: 10px;
+       border-radius: 10px;
+       margin: 10px;
+
+   }
+
+   ul .checked{
+       background: lightgreen ;
+       text-decoration: line-through;
+       margin: 10px;
+   }
+   .all{
+       align-items: center;
+       background-color:#92e6a7 ;
+       color: #10451d;
+   }
+   .list{
+       margin-right: 60%;
+   }
