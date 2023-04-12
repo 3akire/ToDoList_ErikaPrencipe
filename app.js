@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#input').change(function(){
         var input =$(this).val();
-        $('ul').append(' <div class="list"><li>'+input+'<button class="done">Done</button><button class="canc" >Clear</button></li></div>');
+        $('ul').append(' <li>'+input+'<button class="done">Done</button><button class="canc" >Clear</button></li>');
         $(this).val('');
     });
 
